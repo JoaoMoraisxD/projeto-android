@@ -6,7 +6,7 @@ let srcVal = ""
 
 
  for(let i = 0; i<imagens.length; i++){
-    imagens[i].addEventListener('click',Function(){
+    imagens[i].addEventListener('click',function(){
         
         srcVal = imagens[i].getAttribute('src')
         modalImg.setAttribute('src', srcVal)
@@ -14,7 +14,7 @@ let srcVal = ""
     })
 }
 
-btClose.addEventListener('click', Function(){
+btClose.addEventListener('click', function(){
     modal.classList.toggle('modal_active')
 })
 
