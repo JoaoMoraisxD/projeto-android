@@ -18,5 +18,7 @@ btClose.addEventListener('click', function(){
     modal.classList.toggle('modal_active');
 });
 
-console.log(modal)
+function abrir_menu() {
+    
+}
 
